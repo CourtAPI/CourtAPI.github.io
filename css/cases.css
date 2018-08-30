@@ -1,0 +1,23 @@
+body {
+  padding: 1em;
+}
+
+body > .container {
+  width: 800px;
+}
+
+.cases .row {
+  padding: 0.3em;
+}
+
+.cases .row + .row {
+  border-top: none !important;
+}
+
+.cases .head {
+}
+
+.cases .dockets,
+.cases .claims {
+  text-align: right;
+}
